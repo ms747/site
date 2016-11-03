@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Control Panel</title>
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="jumbotron">
+    	<h1>Smart Home Monitoring System</h1>
+    	<h2>Current Status</h2>
+    </div>
+
+    <div class="container">
+    	<table class="table-borderless">
+    		<tr>
+    			<td>Temperature</td>
+    			<td>Humidity</td>
+    			<td>Weight</td>
+    		</tr>
+
+    		<tr>
+    			<td><input type="text" id="tempBox" readonly></input></td>
+    			<td><input type="text" readonly></input></td>
+    			<td><input type="text" readonly></input></td>
+    		</tr>
+
+    		<tr>	
+    			<td><button type="button" class="btn-lg btn-danger "><span class="glyphicon glyphicon-shopping-cart">Refill</span></button></td>
+    			<td><button type="button" class="btn-lg btn-danger"><span class="glyphicon glyphicon-fire">Heater</span></button></td>
+    			<td><button type="button" class="btn-lg btn-danger"><span class="glyphicon glyphicon-ice-lolly">Cooler</span></button></td>
+    				
+    		</tr>
+    	</table>
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </body>
+  
+</html>

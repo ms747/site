@@ -1,0 +1,90 @@
+h1
+{
+	text-align: center;
+}
+
+h2
+{
+	text-align: center;
+	font-size: 32px;
+}
+
+p
+{
+	text-align: right;
+}
+.jumbotron
+{
+	background: #469fe3;
+	color: white;
+
+}
+
+table
+{
+	margin:0px auto;
+	border-spacing:100px 150px;
+    border-collapse: separate;
+}
+
+button
+{
+	width: 100%;
+	//margin: 0 auto;
+	font-size: 32px;
+
+}
+
+.btn-lg
+{
+	font-size: 32px;
+
+}
+
+input[type=text]
+{
+	margin-top:10px;
+	padding: 20px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+td
+{
+	text-align: center;
+	font-size: 48px;
+	//margin-right: 50px;
+
+}
+
+
+
+.btn
+{
+	width: 100%;
+}
+
+.glyphicon:before { margin-right: 10px; }
+
+
+div
+{
+	//margin: 0 auto;
+
+}
+
+
+table {
+    margin-right: 50px;
+}
+
+.container
+{
+	margin-left: 300px;	
+}
+
+html body {
+    background-color:#93bcff;
+
+}
+
